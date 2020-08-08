@@ -1,0 +1,49 @@
+1. Ejecutar: npm init
+2. Ejecutar: npm install --save nodemon body-parser express
+3. Construir el servidor en la carpeta server
+4. Configurar el script en package.json
+5. Creamos la carpeta ruta y las respectivas rutas
+6. Ejecutar: npm install --save pug
+7. Creamos la carpeta views y las respectivas vistas
+8. Creamos una MasterPage que en nuestro caso es layout
+9. Importamos bosstrap en el index del layout
+10. Luego de cargar la carpeta public, importamos el css a nuestro index del layout
+11. Importamos la fuentes de google al index layout
+12. Empezar con el header y el footer de la carpeta includes en layout
+13. Pasamos las Variables que usaremos hacia la vista 
+14. Construit la carpeta configuracion en el server 
+15. Instalar dependencias para bases de datos: npm install --save mysql2 sequelize 
+16. Creamos y configuramos el archivo database.js
+17. Creamos la tabla de nuestra BD en el mysql 
+18. Creamos los modelos e inertamos algunos elementos a la BD 
+19. Empezamos con la vista de proximos viajes
+20. Consultar lo que tenemos en la BD y pasar los resultados a la vista 
+21. Importamos Font Awesome para los iconos de la vista proximos viajes 
+22. Crear la ruta y vista de cada viaje
+23. Crear la ruta y vista de testimoniales
+24. Creamos la tabla en mysql y el modelo en node de los testimoniales
+25. Configurar el bodyparse para poder hacer la peticion post
+26. Relizar la ruta post de los testimoniales y validar formulario
+27. Mostrar los errores al no ingresar datos validos o hayan faltado
+28. Guardar los datos del formulario en la BD
+29. Realizar consulta de testimoniales para imprimirlos en la pagina
+30. Pasamos a crear y configurar la pagina principal
+31. Agregar la C (Controladores) a nuestro MVC
+32. Agregamos Async/Await 
+
+//Como subir el proyecto a un servidor (deployment)
+1. En nuestro caso es necesario Heroku y GitHub
+2. Ejecutar: npm install --save-dev dotenv
+3. Crear archivo variables.env y configurarlo
+4. Usar las variables del archivo .env y configurar nuestra BD y el index del servidor
+5. Vamos al package.json y se hacen algunos cambios en los scripts:
+    -"dev":"nodemon server"
+    -"start":"node server"
+6. Subir proyecto a GitHub:
+    -crear repositorio publico o privado
+    -ejecutar: git init
+    -crear carpeta en el vsc que diga .gitignore
+    -en esta carpeta copiar archivos que excluiremos
+    -ejecutar: git add 
+
+
